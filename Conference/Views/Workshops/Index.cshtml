@@ -1,0 +1,132 @@
+﻿@model IEnumerable<Conference.Domain.Entities.Workshops>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="container">
+
+
+
+        <h1 id="workshops-title" style="color:#442359; font-weight:bold;font-size:3.5em;margin-top:50px;">Workshops</h1>
+
+        <div id="workshop-container" class="row" style="margin-bottom:50px;">
+            @foreach (var workshop in Model)
+            {
+                <div class="col-md-3">
+                    <div class="workshop-name " style="height:30px;color:#77C3E9">
+
+                        <p class="workshop-name-paragraph">@workshop.Description</p>
+                    </div>
+                    <div style="min-height:200px;">
+                        <a asp-action="Details" asp-route-id="@workshop.Id" style="text-decoration:none">
+                            <h2 class=" font-weight-bolder" style="color:#442359">@workshop.Name</h2>
+                        </a>
+                    </div>
+                    <div id="merge">
+                        <p style="margin-bottom:0">@workshop.Speaker.Name</p>
+
+                        @*<button class="btn btn-info btn w-100"style="height:4em;color:#552359;border:2px solid #0062CC;pointer-events: none;">Register</button>*@
+
+                        <a class="btn btn-info  justify-content-center w-100 text-uppercase font-weight-bolder"
+                           target="_blank" href="@workshop.RegistrationLink"
+                           style="height:3.5em;color:#552359;border:2px solid #0062CC;font-size:12px">Register</a>
+                    </div>
+
+                </div>
+            }
+
+
+        </div>
+    </div>
+
+
+
+
+@*<div class="workshop-container" style="display:flex;justify-content:space-between">
+    @foreach (var workshop in Model)
+    {
+        <div>
+            <p>@workshop.Description</p>
+            <p>@workshop.Name</p>
+            <p>@workshop.SpeakerId</p>
+            <button class="btn-primary">Register</button>
+        </div>
+    }
+
+
+</div>*@
+
+
+
+
+@*<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Prerequisites)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Requirements)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PlacesAvailable)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Edition)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RegistrationLink)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Speaker)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Prerequisites)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Requirements)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PlacesAvailable)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Edition)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RegistrationLink)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Speaker.Description)
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>*@
+
+@*<a asp-action="Details" asp-route-id="@item.Id">Details</a> |*@
+
+
+

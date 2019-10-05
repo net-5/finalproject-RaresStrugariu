@@ -1,0 +1,51 @@
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.deps.json
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.dll
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csproj.CoreCompileInputs.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.AssemblyInfoInputs.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.AssemblyInfo.cs
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.pdb
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csprojAssemblyReference.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.dll
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csprojAssemblyReference.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csproj.CoreCompileInputs.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.AssemblyInfoInputs.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.AssemblyInfo.cs
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.deps.json
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\bin\Debug\netstandard2.0\Conference.Data.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\bin\Debug\netstandard2.0\Conference.Domain.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\bin\Debug\netstandard2.0\Conference.Data.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\bin\Debug\netstandard2.0\Conference.Domain.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csproj.CopyComplete
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.deps.json
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.dll
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.pdb
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\bin\Debug\netstandard2.0\Conference.Data.dll
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\bin\Debug\netstandard2.0\Conference.Domain.dll
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\bin\Debug\netstandard2.0\Conference.Data.pdb
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\bin\Debug\netstandard2.0\Conference.Domain.pdb
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csprojAssemblyReference.cache
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csproj.CoreCompileInputs.cache
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.AssemblyInfoInputs.cache
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.AssemblyInfo.cs
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csproj.CopyComplete
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.dll
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.pdb
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.deps.json
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.dll
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Service.pdb
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Data.dll
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Domain.dll
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Data.pdb
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\bin\Debug\netstandard2.0\Conference.Domain.pdb
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csprojAssemblyReference.cache
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csproj.CoreCompileInputs.cache
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.AssemblyInfoInputs.cache
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.AssemblyInfo.cs
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.csproj.CopyComplete
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.dll
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Service\obj\Debug\netstandard2.0\Conference.Service.pdb

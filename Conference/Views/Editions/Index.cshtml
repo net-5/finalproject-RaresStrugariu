@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Conference.Domain.Entities.Editions>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@*<div class="card bg-dark text-white text-center h-100 w-100">
+
+            <img class="card-img " src="~/images/conf 1@2x.png" style="height:auto;background-attachment:fixed" />
+
+                <div class="card-img-overlay" >
+                    <p class="text-info text-uppercase font-weight-bold">155 days to the event</p>
+                    <img src="~/images/brand-dotnet.png" style="width:20em;" />
+                    <h1 class="card-title display-4 font-weight-bolder">2020</h1>
+                    <p class="card-text">29 February 2020 | International Hotel, Iasi, Romania</p>
+                    <button class="btn btn-info">Register</button>
+                </div>
+
+
+
+
+
+    </div>*@
+
+
+<div class="text-light text-center" style="  height: 40em; width: 100%; background-image: url('../images/conf 1.png');background-repeat: no-repeat;background-size:cover;background-attachment:fixed;position:relative">
+    <div style="position:absolute;top:30%;left:35%">
+        <p class="text-info text-uppercase font-weight-bold">155 days to the event</p>
+        <img src="~/images/brand-dotnet.png" style="width:20em;" />
+        <h1 class="card-title display-4 font-weight-bolder">2020</h1>
+        <p class="card-text">29 February 2020 | International Hotel, Iasi, Romania</p>
+        <button class="btn btn-info">Register</button>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TagLine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Active)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>*@
+@*@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TagLine)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Year)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Active)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>*@

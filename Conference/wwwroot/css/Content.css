@@ -1,0 +1,84 @@
+﻿
+/*SPEAKER INDEX*/
+body#override div#terog {
+    /*height: 100% !important;*/
+    background-image: url('../images/conf 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+body#override div.container main div.speaker-text {
+    background-color: #371F48;
+   
+    height: 10em;
+    margin-top: 346px;
+    text-align: center !important;
+    line-height:1!important;
+}
+
+body#override div.container main div.speaker-text a{
+    text-decoration:none!important;
+    color:white;
+}
+
+
+/*EDIT INDEX*/
+body#override div.container main div#front-page {
+    /*width:100%!important;*/
+    min-height:50em!important;
+    background-image: url('../images/conf 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*WORKSHOPS INDEX*/
+ /*body#override div.container main div.workshop-container {
+    display:flex!important;
+    justify-content:flex-start!important;
+}*/
+
+/*body#override div.container main div#workshop-container div.workshop-name p.workshop-name-paragraph {
+    color: saddlebrown!important;
+}*/
+
+
+ .make-bolder {
+    /*color: #442359!important;*/
+    font-weight:bold;
+}
+
+.make-purple {
+    color: #442359;
+}
+
+#team-images img{
+    width:20em;
+}
+
+#irinaTeam {
+    background-image: url('../images/speakers/b&w.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#BuideaTeam {
+    background-image: url('../images/unnamed (2).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#team-images-container{
+    display:flex;
+}
+
+.collapseLinks {
+    color: #442359;
+    text-decoration:none!important;
+    font-weight:bold
+}
+
+    .collapseLinks:hover {
+        color: #442359;
+    }

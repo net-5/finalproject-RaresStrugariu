@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="container" id="myGroup">
+        <h2 class="display-4 font-weight-bold" style="color:#442359">About Us</h2>
+
+        <div class="row border-bottom ">
+            <div class="col-sm">
+                <a class="collapseLinks" data-toggle="collapse" href="#collapseInfo" role="button" aria-expanded="true" aria-controls="collapseInfo">
+                    Info
+                </a>
+            </div>
+            <div class="col-sm">
+                <a class="collapseLinks" data-toggle="collapse" href="#collapseTopics" role="button" aria-expanded="false" aria-controls="collapseTopics">
+                    Topics
+                </a>
+            </div>
+            <div class="col-sm">
+                <a class="collapseLinks" data-toggle="collapse" href="#collapseLove" role="button" aria-expanded="false" aria-controls="collapseLove">
+                    For The love of .Net
+                </a>
+            </div>
+            <div class="col-sm">
+                <a class="collapseLinks" data-toggle="collapse" href="#collapseTeam" role="button" aria-expanded="false" aria-controls="collapseTeam">
+                    The Team
+                </a>
+            </div>
+        </div>
+        <div class="collapse show" id="collapseInfo" data-parent="#myGroup">
+            <div class="card card-body make-purple">
+                <h4 class="make-bolder">About dotnetdays.ro conference</h4>
+                <p>dotnetdays.ro is a .Net and Microsoft related conference in <a href="https://www.google.com/maps/place/Ia%C8%99i/@@47.1562327,27.5169309,12z/" target="_blank">Iasi, Romania</a></p>
+                <p><span class="make-bolder">dotnetdays</span> brings the .NET community in together for in-depth technical talks and workshops.</p>
+                <p>A great lineup of speakers will talk about the latest technologies and trends in .NET and Microsoft Azure</p>
+
+                <h3 style="color:#72C3EA">Mission</h3>
+                <ul style="line-height:40px;">
+                    <li>provide a platform where developers can <span class="make-bolder">exchange knowledge and experiences</span> about .Net and connected technologies.</li>
+                    <li>We reflect the energy and enthusiasm of .Net Community members</li>
+                    <li>Put Iasi on the map as a <span class="make-bolder">powerful .Net Community</span></li>
+                    <li>Help .NET community to <span class="make-bolder">keep up with the new wave of technologies</span>keep up with the new wave of technologies</li>
+                </ul>
+
+                <p>All the speakers and staff engage on a voluntary basis because they want to support and grow .NET Community.</p>
+                <p>We want to get <span class="make-bolder">hands-on experience</span> from the best</p>
+                <p>We are about .Net, meeting people, learning and growing a craftmanship culture.</p>
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseTopics" data-parent="#myGroup">
+            <div class="card card-body make-purple">
+
+                <ul style="line-height:40px;">
+                    <li>.NET, .NET Core</li>
+                    <li>Software Architecture</li>
+                    <li>Cloud Development</li>
+                    <li>Web</li>
+                    <li>Performance</li>
+                    <li>Patterns</li>
+                    <li>New technologies</li>
+                    <li>Project experience & Technical stories</li>
+                </ul>
+
+
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseLove" data-parent="#myGroup">
+            <div class="card card-body make-purple">
+                <h2 class="make-bolder">Why .Net?</h2>
+                <img src="~/images/manyIcons.JPG" style="max-width:45em;max-height:45em" />
+
+
+
+
+            </div>
+        </div>
+
+        <div class="collapse " id="collapseTeam" data-parent="#myGroup">
+            <h3 class="text-center" style="color:#72C3EA;margin-top:5px;"> Organising Team</h3>
+            <div class="d-flex justify-content-center">
+
+                <div id="team-images-container" style="margin-top:2em;margin-bottom:3em;">
+                    <div id="irinaTeam" style="width:300px;height:30em;">
+
+                    </div>
+
+
+                    <div id="BuideaTeam" style="width:300px;height:30em;">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>

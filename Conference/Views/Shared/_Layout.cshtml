@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Conference</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+              crossorigin="anonymous"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
+    </environment>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <link href="~/css/Content.css" rel="stylesheet" asp-append-version="true"/>
+    
+
+</head>
+<body id="override">
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg  ">
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                <img src="~/images/brand-dotnet.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnavaltmarkup" aria-controls="navbarnavaltmarkup" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarnavaltmarkup">
+                <div class="navbar-nav  ">
+                    <a class=" text-secondary nav-item nav-link active" asp-controller="Home" asp-action="Index">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-secondary nav-item" asp-area="" asp-controller="Editions" asp-action="Index">EDITIONS</a>
+
+                    <a class="text-muted nav-item nav-link" asp-controller="Sponsors" asp-action="Index">SPONSORS</a>
+                    <a class="text-secondary nav-item nav-link" asp-controller="SponsorTypes" asp-action="Index">SPONSOR TYPES</a>
+                    <a class="text-secondary nav-item nav-link" asp-controller="Talks" asp-action="Index">TALKS</a>
+                    <a class="text-secondary nav-item nav-link" asp-controller="Workshops" asp-action="Index">WORKSHOP</a>
+                    <a class="text-secondary nav-item nav-link" asp-controller="Speakers" asp-action="Index">SPEAKERS</a>
+                    <a class="text-secondary nav-item nav-link" asp-controller="About" asp-action="Index">ABOUT</a>
+                    <a href="#" class="nav-item nav-link fa fa-facebook"></a>
+                    <a href="#" class="nav-item nav-link fa fa-twitter"></a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+        <partial name="_CookieConsentPartial" />
+        <main role="main" class="pb-3" style="padding-bottom:0!important;">
+            @RenderBody()
+        </main>
+    
+
+
+
+
+
+
+
+        <div class="bg-danger " id="terog" style="min-height:30em">
+            <div class="h-100  container" >
+                <div class="row align-items-center">
+                    <div class="col-6 d-flex justify-content-end text-light">
+                        <h1>Stay Tuned</h1>
+                        
+                    </div>
+                    <div class="col-4 ">
+                        <input class="form-control" type="email" placeholder="Email address*">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-6 text-light">
+                        <div >
+                            <p>You’ll be the first to know when things get in motion or we have</p>
+                        
+                        
+                            <p>something new to share.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn-lg btn-block btn-primary mb-4">Subscribe to our newsletter</button>
+                    </div>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+
+        
+    
+        @*<footer class="footer">*@
+            <div id="footer-container" style="background-color:#442359">
+                <div class="container pb-0 ">
+                    <div class="row text-white">
+                        <div class="about col-xs-12 col-md-4">
+                            <h4 style="font-size:20px">links</h4>
+                            <ul style="list-style-type:none">
+
+                                <li style="height:30px">
+                                    <a class="text-white" href="mailto:info@dotnetdays.ro" style="text-decoration:none; ">contact us</a>
+                                </li>
+                                <li style="height:30px">
+                                    <a class="text-white" href="/privacy" style="text-decoration:none">privacy</a>
+                                </li>
+                                <li style="height:30px">
+                                    <a class="text-white" href="/coc" style="text-decoration:none">code of conduct</a>
+                                </li>
+                                <li style="height:30px">
+                                    <a class="text-white" href="" style="text-decoration:none">terms & conditions</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                        <div class="current-edition col-xs-12 col-md-4">
+                            <h4 style="font-size:20px">about us</h4>
+                            <ul class="text-white" style="list-style-type:none">
+                                <li style="height:30px" class="py-0">
+                                    <a class="text-white" href="/2019/about" style="text-decoration:none;">about</a>
+                                </li>
+                                <li style="height:30px">
+                                    <a class="text-white" href="/beasponsor" style="text-decoration:none">become a sponsor</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="socials col-xs-12 col-md-4">
+                            <h4 style="font-size:20px">socials</h4>
+                            <ul class="socials-nav align-right text-white" style="list-style-type:none;display:flex;">
+                                <li class="social">
+                                    <a href="http://facebook.com/dotnetdays.ro" target="_blank">
+                                        <span style="padding-right:20px;font-size:30px;" class="fa fa-facebook"></span>
+                                    </a>
+                                </li>
+                                <li class="social">
+                                    <a href="https://twitter.com/dotnetdaysro" target="_blank">
+                                        <span style="padding-right:20px;font-size:30px;" class=" fa fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li class="social">
+                                    <a href="https://meetup.com/net-user-group-iasi/" target="_blank">
+                                        <span style="padding-right:20px;font-size:30px;" class=" fa fa-meetup"></span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="text-right text-white col-xs-12">&copy; 2019 - dotnetiasi</div>
+                    </div>
+                </div>
+            </div>
+        @*</footer>*@
+        @*<footer class="border-top footer text-muted">
+                <div class="container">
+                    &copy; 2019 - conference - <a asp-area="" asp-controller="home" asp-action="privacy">privacy</a>
+                </div>
+            </footer>*@
+
+        <environment include="Development">
+            <script src="~/lib/jquery/dist/jquery.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        </environment>
+        <environment exclude="Development">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+            </script>
+        </environment>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @RenderSection("Scripts", required: false)
+</body>
+</html>

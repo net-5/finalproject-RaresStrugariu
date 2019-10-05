@@ -1,0 +1,110 @@
+﻿@model IEnumerable<Conference.Domain.Entities.Talks>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+
+    <div class="row border-top border-dark" style="background-color:#442359;">
+        
+        <div class="container">
+            <h1 class="text-light border-bottom" style="margin-top:1.5em;">Talks</h1>
+            @{ int i = 0;}
+            @foreach (var talks in Model)
+            {
+                <div class="col-md-12" style="margin-bottom:4em;margin-top:2em">
+                    <div style="min-height:50px;color:#77C3E9">
+                        <a class="text-decoration-none" data-toggle="collapse" href="#collapseExample_@i" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <h2 class="text-light">@talks.Name</h2>
+                        </a>
+                    </div>
+                    @*nu pune height sau orice alt style sau orice altceva in collaps*@
+                    <div class="card collapse"  style="background-color:#442359;" id="collapseExample_@i">
+                        <div class="card-body">
+                            <p class=" font-weight-bolder text-light"style="margin:0">@talks.Description</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="text-light" asp-action="Details" asp-route-id="@talks.Id" style="text-decoration:none">
+                            <p style="margin-bottom:0">@talks.Speaker.Name</p>
+                        </a>
+                    </div>
+
+                </div>
+              {i++;}
+            }
+        </div>
+            
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SpeakerId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Edition)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpeakerId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Edition)
+                </td>
+                <td>
+
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>*@

@@ -1,0 +1,45 @@
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.deps.json
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.dll
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csprojAssemblyReference.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CoreCompileInputs.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfoInputs.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfo.cs
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.pdb
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.dll
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.deps.json
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\bin\Debug\netstandard2.0\Conference.Domain.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\bin\Debug\netstandard2.0\Conference.Domain.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csprojAssemblyReference.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CoreCompileInputs.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfoInputs.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfo.cs
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CopyComplete
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.pdb
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.deps.json
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.dll
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.pdb
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\bin\Debug\netstandard2.0\Conference.Domain.dll
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\bin\Debug\netstandard2.0\Conference.Domain.pdb
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csprojAssemblyReference.cache
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CoreCompileInputs.cache
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfoInputs.cache
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfo.cs
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CopyComplete
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.dll
+C:\Users\Rares\Desktop\proiecte finale\finalproject-MariusSimion79-Version1\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.pdb
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.deps.json
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.dll
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Data.pdb
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Domain.dll
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Domain.pdb
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csprojAssemblyReference.cache
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CoreCompileInputs.cache
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfoInputs.cache
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfo.cs
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CopyComplete
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.dll
+C:\Users\Rares\Desktop\Conferene\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.pdb
